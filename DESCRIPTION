@@ -7,7 +7,9 @@ Authors@R:
            role = c("aut", "cre","com","cph"),
            email = "auvarov@uwo.ca",
            comment = c(ORCID = "0000-0003-4568-3143"))
-Description: Tools for performing model-averaging tail area confidence interval estimation for logistic regression (v 0.0.1). Confidence intervals and point estimates derived from AIC, and allows to estimate Wald, profile-likelihood and score based confidence intervals.
+Description: Tools for performing model-averaging tail area confidence interval estimation for logistic regression (v 0.0.1). 
+             Confidence intervals and point estimates derived from AIC, and allows to estimate Wald, profile-likelihood and 
+             score based confidence intervals.
 License: GPL-3 + file LICENSE
 Imports: tictoc, parallel, rootSolve, MASS, stats, Rdpack
 RdMacros: Rdpack
