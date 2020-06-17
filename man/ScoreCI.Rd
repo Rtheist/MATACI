@@ -54,6 +54,6 @@
 
 ## Find initial points
    sp = startpoints(fitted,modnames,alpha = 0.05)
-## Estimate profile-likelihood MATA interval
+## Estimate Score based MATA interval
    ScoreCI(fitted, fm, alpha = 0.05, startL = sp[,2] , startU = sp[,3])
 }

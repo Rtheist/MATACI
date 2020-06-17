@@ -3,7 +3,7 @@
 
 \title{Initial points for faster optimization}
 \description{
-This function estimates confidence intervals with asymptotic version of the transformation-based model-averaged tail area intervals \insertCite{yu2014transformation}{MATACI}.
+This function estimates confidence intervals with asymptotic version of the transformation-based model-averaged tail area (ATMATA) confidence intervals \insertCite{yu2014transformation}{MATACI}.
 }
 \usage{startpoints(fitted,modnames,alpha)}
 
@@ -49,7 +49,7 @@ modnames is extended vector of variable names with specified groups for categori
 ## Note that if you define it manually you must include "(Intercept)"
    modnames = c("(Intercept)", "X1", "X2", "X3")
 
-## Find initial points
+## ATMATA
    sp = startpoints(fitted, modnames, alpha = 0.05)
 }
 
